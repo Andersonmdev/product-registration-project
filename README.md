@@ -9,25 +9,25 @@
 
 Node version >= 16.0.0
 
-### 1. Install dependencies
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-### 2. Run the project in development
+### Run the project in development
 
 ```bash
 npm run dev
 ```
 
-### 2. Compile the project
+### Compile the project
 
 ```bash
 npm run build
 ```
 
-### 3. Run the project in production
+### Run the project in production
 
 ```bash
 npm run start
