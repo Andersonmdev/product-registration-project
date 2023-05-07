@@ -1,0 +1,48 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "linebreak-style": 0,
+    "no-console": "error",
+    "no-implicit-globals": "error",
+    "react-hooks/exhaustive-deps": 0,
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 1,
+        "maxEOF": 1
+      }
+    ],
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "max-len": [
+      "error",
+      {
+        "code": 120,
+        "tabWidth": 2
+      }
+    ],
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "eol-last": [
+      "error",
+      "always"
+    ]
+  }
+}
